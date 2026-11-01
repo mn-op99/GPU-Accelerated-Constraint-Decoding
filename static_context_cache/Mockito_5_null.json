@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nUnsafe dereferences:\n  line 78   timer.start();  \u2192 receiver of .start() is MAY-NULL\n  line 81   delegate.verify(data);  \u2192 receiver of .verify() is MAY-NULL"
+}

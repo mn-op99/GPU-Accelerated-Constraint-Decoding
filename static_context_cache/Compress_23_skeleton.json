@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: LZMADecoder (extends CoderBase)\n(no fields declared)\nMethods:\n  InputStream decode(InputStream in, Coder coder, byte[] password)"
+}

@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: ReturnsEmptyValues (implements Answer, Serializable)\nStatic constants:\n  private static final long serialVersionUID\nFields:\n  ObjectMethodsGuru methodsGuru\n  MockUtil mockUtil\nMethods:\n  public Object answer(InvocationOnMock invocation)\n  Object returnValueFor(Class<?> type)"
+}

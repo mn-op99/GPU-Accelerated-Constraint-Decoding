@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 877  _hashArea = Arrays.copyOf(_hashArea, _hashArea.length);  \u2192 MAY-NULL (calls java.util.Arrays.copyOf(), return value not checked)\n  line 878  _names = Arrays.copyOf(_names, _names.length);  \u2192 MAY-NULL (calls java.util.Arrays.copyOf(), return value not checked)"
+}

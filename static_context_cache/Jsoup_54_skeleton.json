@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: W3CBuilder (implements NodeVisitor)\nStatic constants:\n  private static final String xmlnsKey\n  private static final String xmlnsPrefix\nFields:\n  private final Document doc\n  private final HashMap<String,String> namespaces\n  private Element dest\nMethods:\n  public void head(org.jsoup.nodes.Node source, int depth)\n  public void tail(org.jsoup.nodes.Node source, int depth)\n  private void copyAttributes(org.jsoup.nodes.Node source, Element el)\n  private String updateNamespaces(org.jsoup.nodes.Element el)"
+}

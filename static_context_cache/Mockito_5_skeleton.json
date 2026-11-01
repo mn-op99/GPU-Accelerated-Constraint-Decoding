@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: VerificationOverTimeImpl (implements VerificationMode)\nFields:\n  private final long pollingPeriodMillis\n  private final long durationMillis\n  private final VerificationMode delegate\n  private final boolean returnOnSuccess\n  private final Timer timer\nMethods:\n  public void verify(VerificationData data)\n  private AssertionError handleVerifyException(AssertionError e)\n  protected boolean canRecoverFromFailure(VerificationMode verificationMode)\n  private void sleep(long sleep)\n  public long getPollingPeriod()\n  public long getDuration()\n  public VerificationMode getDelegate()"
+}

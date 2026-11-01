@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: PearsonsCorrelation\nFields:\n  private final RealMatrix correlationMatrix\n  private final int nObs\nMethods:\n  public RealMatrix getCorrelationMatrix()\n  public RealMatrix getCorrelationStandardErrors()\n  public RealMatrix getCorrelationPValues()\n  public RealMatrix computeCorrelationMatrix(RealMatrix matrix)\n  public RealMatrix computeCorrelationMatrix(double[][] data)\n  public double correlation(double[] xArray, double[] yArray)\n  public RealMatrix covarianceToCorrelation(RealMatrix covarianceMatrix)\n  private void checkSufficientData(RealMatrix matrix)"
+}

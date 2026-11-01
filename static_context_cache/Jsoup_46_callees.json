@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to escape special characters in a string for HTML output.  \nIt operates on a string and a Document.OutputSettings object as inputs.  \nIt initializes a StringBuilder and calls another escape method with specific parameters.  \nThe method is supposed to return the escaped string as a result.  \nAt line 2, it calls escape(). escape()'s intention is The method's primary purpose is to escape special characters in a string according to specified output settings. It achieves this by using a StringBuilder to efficiently append the escaped characters and calls another method to handle the escaping logic."
+}

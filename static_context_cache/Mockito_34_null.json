@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 107  ((CapturesArguments) m).captureFrom(i.getArguments()[k]);  \u2192 MAY-NULL (calls org.mockito.internal.invocation.Invocation.getArguments(), return value not checked)\n\nUnsafe dereferences:\n  line 107  ((CapturesArguments) m).captureFrom(i.getArguments()[k]);  \u2192 receiver of .getArguments() is MAY-NULL\n  line 107  ((CapturesArguments) m).captureFrom(i.getArguments()[k]);  \u2192 receiver of .captureFrom() is MAY-NULL"
+}

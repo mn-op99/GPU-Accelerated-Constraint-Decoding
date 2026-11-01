@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 881  String str = (obj == null ? getNullText() : obj.toString());  \u2192 MAY-NULL (calls org.apache.commons.lang.text.StrBuilder.getNullText(), return value not checked)"
+}

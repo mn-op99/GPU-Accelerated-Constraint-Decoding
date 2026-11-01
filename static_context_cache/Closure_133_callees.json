@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to retrieve the remaining line of a JSDoc comment. It operates on a stream object that contains JSDoc comments. It calls a method to get the remaining line from the stream. It returns the remaining line as a string.\n\nAt line 2, it calls getRemainingJSDocLine(). getRemainingJSDocLine()'s intention is The method's primary purpose is to retrieve the remaining portion of a JSDoc comment line. It achieves this by accessing and returning the text content that follows the current parsing position within the JSDoc comment."
+}

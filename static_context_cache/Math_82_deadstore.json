@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'minRatio' assigned at line 85   (ratio) but never used afterward\n  \u26a0 'minRatioPos' assigned at line 78   (null) but never used afterward"
+}

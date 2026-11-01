@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: LocalScopeBuilder (extends AbstractScopeBuilder)\n(no fields declared)\nMethods:\n  void build()\n  public void visit(NodeTraversal t, Node n, Node parent)\n  private void handleFunctionInputs(Node fnNode)\n  private void declareArguments(Node functionNode)"
+}

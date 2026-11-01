@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: NumberSerializer (extends StdScalarSerializer)\nStatic constants:\n  public final static NumberSerializer instance\nFields:\n  protected final boolean _isInt\nMethods:\n  public void serialize(Number value, JsonGenerator g, SerializerProvider provider)\n  public JsonNode getSchema(SerializerProvider provider, Type typeHint)\n  public void acceptJsonFormatVisitor(JsonFormatVisitorWrapper visitor, JavaType typeHint)"
+}

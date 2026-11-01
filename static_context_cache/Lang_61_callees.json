@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to find the index of a character in a string.  \nIt operates on a character input and uses a starting index of 0.  \nIt calls another method to perform the search starting from the beginning of the string.  \nIt is supposed to return the index of the character if found, or -1 if not found.  \nAt line 2, it calls indexOf(). indexOf()'s intention is The method's primary purpose is to find the position of a specified character in a string. It achieves this by calling another method with the character and a starting index of zero."
+}

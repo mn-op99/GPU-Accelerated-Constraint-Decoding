@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 376  for (Type type : typeVariable.getBounds()) {  \u2192 MAY-NULL (calls java.lang.reflect.TypeVariable.getBounds(), return value not checked)\n  line 379  registerTypeVariablesOn(getActualTypeArgumentFor(typeVariable));  \u2192 MAY-NULL (calls org.mockito.internal.util.reflection.GenericMetadataSupport.getActualTypeArgumentFor(), return value not checked)"
+}

@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 '_hashArea' assigned at line 877  (Arrays.copyOf(_hashArea, _hashArea.lengt...) but never used afterward\n  \u26a0 '_names' assigned at line 878  (Arrays.copyOf(_names, _names.length)) but never used afterward\n  \u26a0 '_hashShared' assigned at line 879  (false) but never used afterward"
+}

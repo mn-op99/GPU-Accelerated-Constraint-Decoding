@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: GrayPaintScale (implements PaintScale, PublicCloneable, Serializable)\nFields:\n  private double lowerBound\n  private double upperBound\nMethods:\n  public double getLowerBound()\n  public double getUpperBound()\n  public Paint getPaint(double value)\n  public boolean equals(Object obj)\n  public Object clone()"
+}

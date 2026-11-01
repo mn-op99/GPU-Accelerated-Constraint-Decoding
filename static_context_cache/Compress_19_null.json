@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 260  throw new ZipException(\"central directory zip64 extended\"  \u2192 MAY-NULL (calls java.lang.StringBuilder.append(), return value not checked)\n  line 260  throw new ZipException(\"central directory zip64 extended\"  \u2192 MAY-NULL (calls java.lang.StringBuilder.append(), return value not checked)\n  line 260  throw new ZipException(\"central directory zip64 extended\"  \u2192 MAY-NULL (calls java.lang.StringBuilder.append(), return value not checked)\n  line 260  throw new ZipException(\"central directory zip64 extended\"  \u2192 MAY-NULL (calls java.lang.StringBuilder.append(), return value not checked)"
+}

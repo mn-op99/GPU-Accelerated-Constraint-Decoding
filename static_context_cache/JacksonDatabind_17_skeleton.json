@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: DefaultTypeResolverBuilder (extends StdTypeResolverBuilder, implements Serializable)\nStatic constants:\n  private static final long serialVersionUID\nFields:\n  protected final DefaultTyping _appliesFor\nMethods:\n  public TypeDeserializer buildTypeDeserializer(DeserializationConfig config, JavaType baseType, Collection<NamedType> subtypes)\n  public TypeSerializer buildTypeSerializer(SerializationConfig config, JavaType baseType, Collection<NamedType> subtypes)\n  public boolean useForType(JavaType t)"
+}

@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 155  sb = _referencedType.getGenericSignature(sb);  \u2192 MAY-NULL (calls com.fasterxml.jackson.databind.JavaType.getGenericSignature(), return value not checked)\n\nUnsafe dereferences:\n  line 155  sb = _referencedType.getGenericSignature(sb);  \u2192 receiver of .getGenericSignature() is MAY-NULL"
+}

@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: LocaleUtils\nStatic constants:\n  private static final List cAvailableLocaleList\n  private static final Map cLanguagesByCountry\n  private static final Map cCountriesByLanguage\nFields:\n  private static Set cAvailableLocaleSet\nMethods:\n  public static Locale toLocale(String str)\n  public static List localeLookupList(Locale locale)\n  public static List localeLookupList(Locale locale, Locale defaultLocale)\n  public static List availableLocaleList()\n  public static Set availableLocaleSet()\n  public static boolean isAvailableLocale(Locale locale)\n  public static List languagesByCountry(String countryCode)\n  public static List countriesByLanguage(String languageCode)"
+}

@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: ArgumentMatchingTool\n(no fields declared)\nMethods:\n  public Integer[] getSuspiciouslyNotMatchingArgsIndexes(List<Matcher> matchers, Object[] arguments)\n  private boolean safelyMatches(Matcher m, Object arg)\n  private boolean toStringEquals(Matcher m, Object arg)"
+}

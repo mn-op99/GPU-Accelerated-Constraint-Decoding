@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 274  PathIterator iterator1 = p1.getPathIterator(null);  \u2192 MAY-NULL (calls java.awt.geom.Path2D$Float.getPathIterator(), return value not checked)\n  line 275  PathIterator iterator2 = p1.getPathIterator(null);  \u2192 MAY-NULL (calls java.awt.geom.Path2D$Float.getPathIterator(), return value not checked)"
+}

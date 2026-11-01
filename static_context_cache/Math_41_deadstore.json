@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'var' assigned at line 504  (Double.NaN) but never used afterward\n  \u26a0 'var' assigned at line 508  (0.0) but never used afterward\n  \u26a0 'var' assigned at line 525  ((accum - (accum2 * accum2 / sumWts)) / (...) but never used afterward\n  \u26a0 'dev' assigned at line 511  (0.0) but never used afterward"
+}

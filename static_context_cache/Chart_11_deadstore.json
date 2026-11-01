@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'done' assigned at line 293  (iterator1.isDone() && iterator2.isDone()) but never used afterward"
+}

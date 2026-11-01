@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'i' assigned at line 649  (0) but never used afterward\n  \u26a0 'furthestBlock' assigned at line 663  (null) but never used afterward\n  \u26a0 'commonAncestor' assigned at line 664  (null) but never used afterward\n  \u26a0 'seenFormattingElement' assigned at line 665  (false) but never used afterward\n  \u26a0 'j' assigned at line 688  (0) but never used afterward"
+}

@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: MultivariateNormalDistribution (extends AbstractMultivariateRealDistribution)\nFields:\n  private final double[] means\n  private final RealMatrix covarianceMatrix\n  private final RealMatrix covarianceMatrixInverse\n  private final double covarianceMatrixDeterminant\n  private final RealMatrix samplingMatrix\nMethods:\n  public double[] getMeans()\n  public RealMatrix getCovariances()\n  public double density(double[] vals)\n  public double[] getStandardDeviations()\n  public double[] sample()\n  private double getExponentTerm(double[] values)"
+}

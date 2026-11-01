@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: FirstOrderFunctionAnalyzer (extends AbstractScopedCallback, implements CompilerPass)\nFields:\n  private final AbstractCompiler compiler\n  private final Map<Node,AstFunctionContents> data\nMethods:\n  public void process(Node externs, Node root)\n  public void enterScope(NodeTraversal t)\n  public void visit(NodeTraversal t, Node n, Node parent)"
+}

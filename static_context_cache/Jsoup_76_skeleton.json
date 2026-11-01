@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nEnum: HtmlTreeBuilderState\nEnum constants: Initial, BeforeHtml, BeforeHead, InHead, InHeadNoscript, AfterHead, InBody, Text, InTable, InTableText, InCaption, InColumnGroup, InTableBody, InRow, InCell, InSelect, InSelectInTable, AfterBody, InFrameset, AfterFrameset, AfterAfterBody, AfterAfterFrameset, ForeignContent\nFields:\n  private static String nullString\nMethods:\n  abstract boolean process(Token t, HtmlTreeBuilder tb)\n  private static boolean isWhitespace(Token t)\n  private static boolean isWhitespace(String data)\n  private static void handleRcData(Token.StartTag startTag, HtmlTreeBuilder tb)\n  private static void handleRawtext(Token.StartTag startTag, HtmlTreeBuilder tb)"
+}

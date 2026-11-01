@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: KMeansPlusPlusClusterer\nFields:\n  private final Random random\n  private final EmptyClusterStrategy emptyStrategy\nMethods:\n  public List<Cluster<T>> cluster(Collection<T> points, int k, int maxIterations)\n  private static void assignPointsToClusters(Collection<Cluster<T>> clusters, Collection<T> points)\n  private static List<Cluster<T>> chooseInitialCenters(Collection<T> points, int k, Random random)\n  private T getPointFromLargestVarianceCluster(Collection<Cluster<T>> clusters)\n  private T getPointFromLargestNumberCluster(Collection<Cluster<T>> clusters)\n  private T getFarthestPoint(Collection<Cluster<T>> clusters)\n  private static Cluster<T> getNearestCluster(Collection<Cluster<T>> clusters, T point)"
+}

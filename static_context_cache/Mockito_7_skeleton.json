@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: TypeVariableReturnType (extends GenericMetadataSupport)\nFields:\n  private final TypeVariable typeVariable\n  private final TypeVariable[] typeParameters\n  private Class<?> rawType\nMethods:\n  private void readTypeParameters()\n  private void readTypeVariables()\n  public Class<?> rawType()\n  private Class<?> extractRawTypeOf(Type type)\n  public List<Type> extraInterfaces()\n  public Class<?>[] rawExtraInterfaces()\n  private Type extractActualBoundedTypeOf(Type type)"
+}

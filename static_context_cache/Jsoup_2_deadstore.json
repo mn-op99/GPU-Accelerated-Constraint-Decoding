@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'isEmptyElement' assigned at line 136  (tag.isEmpty()) but never used afterward\n  \u26a0 'dataNode' assigned at line 151  (TextNode.createFromEncoded(data, baseUri...) but never used afterward\n  \u26a0 'baseUri' assigned at line 161  (href) but never used afterward"
+}

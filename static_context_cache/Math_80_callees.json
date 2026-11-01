@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to flip sections of an array if a condition is met.  \nIt operates on an integer array `work`, and uses inputs `n` and `step`.  \nIt checks a condition involving elements of `work`, and if true, swaps elements in sections of the array.  \nThe method returns a boolean indicating whether the array was flipped.  \n\nAt line 1, it calls work[]. work[]'s intention is [PLACEHOLDER_NAME]"
+}

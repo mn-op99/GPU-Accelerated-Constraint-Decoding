@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: GaussianFitter (extends CurveFitter)\n(no fields declared)\nMethods:\n  public double[] fit(double[] initialGuess)\n  public double[] fit()"
+}

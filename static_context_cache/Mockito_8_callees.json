@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to register type variables for a given class type.  \nIt operates on a Type object, specifically when it is a ParameterizedType.  \nIt checks if the type is a ParameterizedType, retrieves type parameters and actual arguments, and maps them.  \nIt updates a map with type parameters and their corresponding actual type arguments or bounds.  \n\nAt line 11, it calls boundsOf(). boundsOf()'s intention is The method determines the bounded type of a given type variable. It recursively checks if the first bound is another type variable and continues until it finds a non-type variable bound, then returns a new bounded type instance."
+}

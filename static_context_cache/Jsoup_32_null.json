@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 1137 Element clone = (Element) super.clone();  \u2192 MAY-NULL (calls org.jsoup.nodes.Node.clone(), return value not checked)\n\nUnsafe dereferences:\n  line 1138 clone.classNames();  \u2192 receiver of .classNames() is MAY-NULL"
+}

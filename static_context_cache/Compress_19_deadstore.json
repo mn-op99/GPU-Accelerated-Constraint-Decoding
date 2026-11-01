@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'size' assigned at line 269  (new ZipEightByteInteger(rawCentralDirect...) but never used afterward\n  \u26a0 'compressedSize' assigned at line 273  (new ZipEightByteInteger(rawCentralDirect...) but never used afterward\n  \u26a0 'relativeHeaderOffset' assigned at line 278  (new ZipEightByteInteger(rawCentralDirect...) but never used afterward\n  \u26a0 'diskStart' assigned at line 283  (new ZipLong(rawCentralDirectoryData, off...) but never used afterward"
+}

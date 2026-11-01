@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this._class               \u2192 MAY-NULL   [line 166, class com.fasterxml.jackson.databind.JavaType]\n  this._referencedType      \u2192 MAY-NULL   [line 168, class com.fasterxml.jackson.databind.type.ReferenceType]\n\nCallee return nullability:\n  line 166  sb.append(_class.getName());  \u2192 MAY-NULL (calls java.lang.Class.getName(), return value not checked)\n  line 168  sb.append(_referencedType.toCanonical());  \u2192 MAY-NULL (calls com.fasterxml.jackson.core.type.ResolvedType.toCanonical(), return value not checked)\n\nUnsafe dereferences:\n  line 168  sb.append(_referencedType.toCanonical());  \u2192 receiver of .toCanonical() is MAY-NULL"
+}

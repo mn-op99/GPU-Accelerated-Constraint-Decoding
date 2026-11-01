@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to initialize a Week object with the current date. It operates on the current system date as input. It calls another constructor with the current date to set up the Week object. The output is a Week object initialized with the current date.\n\nAt line 2, it calls Date(). Date()'s intention is [PLACEHOLDER_NAME]"
+}

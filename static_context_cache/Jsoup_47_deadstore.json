@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'lastWasWhite' assigned at line 99   (true) but never used afterward\n  \u26a0 'lastWasWhite' assigned at line 102  (false) but never used afterward\n  \u26a0 'reachedNonWhite' assigned at line 103  (true) but never used afterward"
+}

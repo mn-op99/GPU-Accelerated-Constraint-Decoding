@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 385  Element node = stack.get(pos);  \u2192 MAY-NULL (calls java.util.ArrayList.get(), return value not checked)\n  line 390  String name = node.nodeName();  \u2192 MAY-NULL (calls org.jsoup.nodes.Element.nodeName(), return value not checked)\n\nUnsafe dereferences:\n  line 390  String name = node.nodeName();  \u2192 receiver of .nodeName() is MAY-NULL"
+}

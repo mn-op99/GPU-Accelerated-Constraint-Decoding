@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to construct a canonical name for a class with a referenced type. It operates on the state of the class, specifically the _class and _referencedType fields. It appends the class name and the canonical form of the referenced type to a StringBuilder. It is supposed to return the constructed canonical name as a String. At line 4, it calls getName(). getName()'s intention is [PLACEHOLDER_NAME] At line 6, it calls toCanonical(). toCanonical()'s intention is [PLACEHOLDER_NAME]"
+}

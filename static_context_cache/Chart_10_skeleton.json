@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: StandardToolTipTagFragmentGenerator (implements ToolTipTagFragmentGenerator)\n(no fields declared)\nMethods:\n  public String generateToolTipFragment(String toolTipText)"
+}

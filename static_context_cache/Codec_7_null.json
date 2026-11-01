@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 670  return StringUtils.newStringUtf8(encodeBase64(binaryData, true));  \u2192 MAY-NULL (calls org.apache.commons.codec.binary.Base64.encodeBase64(), return value not checked)\n  line 670  return StringUtils.newStringUtf8(encodeBase64(binaryData, true));  \u2192 MAY-NULL (calls org.apache.commons.codec.binary.StringUtils.newStringUtf8(), return value not checked)"
+}

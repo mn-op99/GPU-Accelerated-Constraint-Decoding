@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 859  if (getName().endsWith(\"/\")) {  \u2192 MAY-NULL (calls org.apache.commons.compress.archivers.tar.TarArchiveEntry.getName(), return value not checked)"
+}

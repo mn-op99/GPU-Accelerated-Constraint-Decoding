@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is intended to check if two Calendar instances represent the same local time. It operates on two Calendar objects, cal1 and cal2. It compares various time fields such as milliseconds, seconds, minutes, hours, day of the year, year, era, and class type. It returns a boolean indicating whether the two Calendar instances have the same local time values."
+}

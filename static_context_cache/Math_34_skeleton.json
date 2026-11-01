@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: ListPopulation (implements Population)\nFields:\n  private List<Chromosome> chromosomes\n  private int populationLimit\nMethods:\n  public void setChromosomes(List<Chromosome> chromosomes)\n  public void addChromosomes(Collection<Chromosome> chromosomeColl)\n  public List<Chromosome> getChromosomes()\n  protected List<Chromosome> getChromosomeList()\n  public void addChromosome(Chromosome chromosome)\n  public Chromosome getFittestChromosome()\n  public int getPopulationLimit()\n  public void setPopulationLimit(int populationLimit)\n  public int getPopulationSize()\n  public String toString()\n  public Iterator<Chromosome> iterator()"
+}

@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: CommandLineRunner (extends AbstractCommandLineRunner)\nStatic constants:\n  private static final List<String> DEFAULT_EXTERNS_NAMES\nFields:\n  private final Flags flags\n  private boolean isConfigValid\nMethods:\n  private List<String> tokenizeKeepingQuotedStrings(List<String> lines)\n  private List<String> processArgs(String[] args)\n  private void processFlagFile(PrintStream err)\n  private void initConfigFromFlags(String[] args, PrintStream err)\n  protected CompilerOptions createOptions()\n  protected Compiler createCompiler()\n  protected List<SourceFile> createExterns()\n  public static List<SourceFile> getDefaultExterns()\n  public boolean shouldRunCompiler()\n  public static void main(String[] args)"
+}

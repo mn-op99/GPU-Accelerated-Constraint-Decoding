@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this.headerMap            \u2192 MAY-NULL   [line 288, class org.apache.commons.csv.CSVParser]"
+}

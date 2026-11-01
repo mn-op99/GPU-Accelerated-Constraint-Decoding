@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 1323 char[] chars = str.toCharArray();  \u2192 MAY-NULL (calls java.lang.String.toCharArray(), return value not checked)"
+}

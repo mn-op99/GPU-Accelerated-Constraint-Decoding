@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: POJONode (extends ValueNode)\nFields:\n  protected final Object _value\nMethods:\n  public JsonNodeType getNodeType()\n  public JsonToken asToken()\n  public byte[] binaryValue()\n  public String asText()\n  public String asText(String defaultValue)\n  public boolean asBoolean(boolean defaultValue)\n  public int asInt(int defaultValue)\n  public long asLong(long defaultValue)\n  public double asDouble(double defaultValue)\n  public final void serialize(JsonGenerator gen, SerializerProvider ctxt)\n  public Object getPojo()\n  public boolean equals(Object o)\n  protected boolean _pojoEquals(POJONode other)\n  public int hashCode()\n  public String toString()"
+}

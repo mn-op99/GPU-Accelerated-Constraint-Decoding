@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 872  calendar = (Calendar) calendar.clone();  \u2192 MAY-NULL (calls java.util.Calendar.clone(), return value not checked)\n  line 875  return applyRules(calendar, buf);  \u2192 MAY-NULL (calls org.apache.commons.lang3.time.FastDateFormat.applyRules(), return value not checked)"
+}

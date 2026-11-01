@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nUnsafe dereferences:\n  line 148  this.pieChart.removeLegend();  \u2192 receiver of .removeLegend() is MAY-NULL\n  line 150  this.pieChart.setBackgroundPaint(null);  \u2192 receiver of .setBackgroundPaint() is MAY-NULL\n  line 153  seriesTitle.setPosition(RectangleEdge.BOTTOM);  \u2192 receiver of .setPosition() is MAY-NULL\n  line 154  this.pieChart.setTitle(seriesTitle);  \u2192 receiver of .setTitle() is MAY-NULL"
+}

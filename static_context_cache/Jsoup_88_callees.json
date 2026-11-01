@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to retrieve a value stored in a variable.  \nIt operates on an instance variable named 'val'.  \nIt directly returns the value of the 'val' variable.  \nThe output is a String representing the value of 'val'."
+}

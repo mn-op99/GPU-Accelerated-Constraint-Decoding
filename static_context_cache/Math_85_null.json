@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 171  throw MathRuntimeException.createIllegalArgumentException(\"function is null\");  \u2192 MAY-NULL (calls org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(), return value not checked)\n  line 174  throw MathRuntimeException.createIllegalArgumentException(  \u2192 MAY-NULL (calls org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(), return value not checked)\n  line 178  throw MathRuntimeException.createIllegalArgumentException(  \u2192 MAY-NULL (calls org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(), return value not checked)"
+}

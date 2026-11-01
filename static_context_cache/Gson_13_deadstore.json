@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'l' assigned at line 666  (limit) but never used afterward\n  \u26a0 'value' assigned at line 647  (0) but never used afterward\n  \u26a0 'negative' assigned at line 648  (false) but never used afterward\n  \u26a0 'peekedLong' assigned at line 732  (negative ? value : -value) but never used afterward\n  \u26a0 'peeked' assigned at line 734  (PEEKED_LONG) but never used afterward\n  \u26a0 'peeked' assigned at line 738  (PEEKED_NUMBER) but never used afterward\n  \u26a0 'peekedNumberLength' assigned at line 737  (i) but never used afterward"
+}

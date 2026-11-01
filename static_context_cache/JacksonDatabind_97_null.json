@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nUnsafe dereferences:\n  line 108  ctxt.defaultSerializeNull(gen);  \u2192 receiver of .defaultSerializeNull() is MAY-NULL\n  line 110  ((JsonSerializable) _value).serialize(gen, ctxt);  \u2192 receiver of .serialize() is MAY-NULL\n  line 114  gen.writeObject(_value);  \u2192 receiver of .writeObject() is MAY-NULL"
+}

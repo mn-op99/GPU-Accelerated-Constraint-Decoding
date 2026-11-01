@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: TypeHandler\n(no fields declared)\nMethods:\n  public static Object createValue(String str, Object obj)\n  public static T createValue(String str, Class<T> clazz)\n  public static Object createObject(String classname)\n  public static Number createNumber(String str)\n  public static Class<?> createClass(String classname)\n  public static Date createDate(String str)\n  public static URL createURL(String str)\n  public static File createFile(String str)\n  public static FileInputStream openFile(String str)\n  public static File[] createFiles(String str)"
+}

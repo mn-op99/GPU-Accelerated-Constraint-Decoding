@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: Caverphone (implements StringEncoder)\n(no fields declared)\nMethods:\n  public String caverphone(String txt)\n  public Object encode(Object pObject)\n  public String encode(String pString)\n  public boolean isCaverphoneEqual(String str1, String str2)"
+}

@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: ISO8601Utils\nStatic constants:\n  private static final String UTC_ID\n  private static final TimeZone TIMEZONE_UTC\nMethods:\n  public static String format(Date date)\n  public static String format(Date date, boolean millis)\n  public static String format(Date date, boolean millis, TimeZone tz)\n  public static Date parse(String date, ParsePosition pos)\n  private static boolean checkOffset(String value, int offset, char expected)\n  private static int parseInt(String value, int beginIndex, int endIndex)\n  private static void padInt(StringBuilder buffer, int value, int length)\n  private static int indexOfNonDigit(String string, int offset)"
+}

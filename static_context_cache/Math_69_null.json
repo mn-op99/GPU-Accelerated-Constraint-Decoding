@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this.nObs                 \u2192 MAY-NULL   [line 161, class org.apache.commons.math.stat.correlation.PearsonsCorrelation]\n  this.correlationMatrix    \u2192 MAY-NULL   [line 162, class org.apache.commons.math.stat.correlation.PearsonsCorrelation]\n  this.correlationMatrix    \u2192 MAY-NULL   [line 169, class org.apache.commons.math.stat.correlation.PearsonsCorrelation]\n  this.nObs                 \u2192 MAY-NULL   [line 170, class org.apache.commons.math.stat.correlation.PearsonsCorrelation]"
+}

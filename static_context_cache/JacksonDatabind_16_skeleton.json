@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: AnnotationMap (implements Annotations)\nFields:\n  protected HashMap<Class<? extends Annotation>,Annotation> _annotations\nMethods:\n  public A get(Class<A> cls)\n  public Iterable<Annotation> annotations()\n  public static AnnotationMap merge(AnnotationMap primary, AnnotationMap secondary)\n  public int size()\n  public boolean addIfNotPresent(Annotation ann)\n  public boolean add(Annotation ann)\n  public String toString()\n  protected final boolean _add(Annotation ann)"
+}

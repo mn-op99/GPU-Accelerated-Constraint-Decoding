@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'eof' assigned at line 421  (true) but never used afterward\n  \u26a0 'i' assigned at line 451  (0) but never used afterward\n  \u26a0 'currentLinePos' assigned at line 468  (0) but never used afterward"
+}

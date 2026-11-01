@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to return a copy of the header map.  \nIt operates on the instance variable `headerMap`.  \nIt creates a new `LinkedHashMap` using `headerMap` as a parameter.  \nIt is supposed to produce a new map with the same entries as `headerMap`.  \nAt line 2, it calls LinkedHashMap(). LinkedHashMap()'s intention is [PLACEHOLDER_NAME]"
+}

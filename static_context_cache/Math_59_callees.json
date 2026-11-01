@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to determine the maximum of two integers.  \nIt operates on two integer inputs, a and b.  \nIt uses a ternary conditional operator to compare the two integers.  \nIt is supposed to return the larger of the two integers."
+}

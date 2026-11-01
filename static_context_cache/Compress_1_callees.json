@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to close a resource if it is not already closed.  \nIt operates on the state of the object, specifically the 'closed' boolean field.  \nIt checks if the resource is not closed, then calls the superclass's close method and sets 'closed' to true.  \nThe method should ensure the resource is closed and update the state to reflect this.  \nAt line 3, it calls close(). close()'s intention is [PLACEHOLDER_NAME]"
+}

@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to convert an array of objects into an array of their corresponding classes.  \nIt operates on an input array of objects.  \nIt checks if the array is null or empty, then iterates over the array to get the class of each object.  \nIt returns an array of Class objects representing the classes of the input objects.  \nAt line 3, it calls ArrayUtils.EMPTY_CLASS_ARRAY. ArrayUtils.EMPTY_CLASS_ARRAY's intention is [PLACEHOLDER_NAME]"
+}

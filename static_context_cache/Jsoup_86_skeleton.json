@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: Comment (extends LeafNode)\nStatic constants:\n  private static final String COMMENT_KEY\nMethods:\n  public String nodeName()\n  public String getData()\n  void outerHtmlHead(Appendable accum, int depth, Document.OutputSettings out)\n  void outerHtmlTail(Appendable accum, int depth, Document.OutputSettings out)\n  public String toString()\n  public boolean isXmlDeclaration()\n  public XmlDeclaration asXmlDeclaration()"
+}

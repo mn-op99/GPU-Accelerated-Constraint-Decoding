@@ -1,0 +1,9 @@
+# Python 3.10+
+torch>=2.1
+transformers>=4.40
+peft>=0.10
+accelerate>=0.29
+# The checkpoint's tokenizer.json uses the >=0.20 `merges` format. Older
+# versions still work (run_decode.py rewrites a compatible copy) but print a
+# warning on every run.
+tokenizers>=0.20

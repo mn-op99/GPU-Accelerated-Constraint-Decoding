@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'last' assigned at line 383  (false) but never used afterward\n  \u26a0 'node' assigned at line 385  (stack.get(pos)) but never used afterward"
+}

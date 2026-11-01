@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to create a new String from a byte array using the ISO-8859-1 charset.  \nIt operates on a byte array input called `bytes`.  \nIt constructs a new String by passing the byte array and the ISO-8859-1 charset to the String constructor.  \nIt is supposed to return a String that represents the byte array interpreted as ISO-8859-1 characters.  \nAt line 2, it calls String(). String()'s intention is [PLACEHOLDER_NAME]  \nAt line 2, it calls Charsets.ISO_8859_1. Charsets.ISO_8859_1's intention is [PLACEHOLDER_NAME]"
+}

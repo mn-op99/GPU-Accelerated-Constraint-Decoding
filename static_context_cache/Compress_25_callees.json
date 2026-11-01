@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to initialize a ZipArchiveInputStream with a given InputStream. It operates on an InputStream and a default encoding value. It calls another constructor with the InputStream and a specific encoding. The method should produce a ZipArchiveInputStream object ready for use.\n\nAt line 2, it calls getZipEncoding(). getZipEncoding()'s intention is The method's primary purpose is to retrieve the appropriate zip encoding for file names. It achieves this by determining the best character encoding based on the system's default settings or specified parameters."
+}

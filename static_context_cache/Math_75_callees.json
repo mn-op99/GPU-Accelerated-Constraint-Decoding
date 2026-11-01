@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to calculate a percentage value for a given object.  \nIt operates on an input object 'v' which is expected to be comparable.  \nIt attempts to compute the cumulative percentage by calling another method.  \nThe method is supposed to return a double representing the percentage.  \nAt line 3, it calls getCumPct(). getCumPct()'s intention is The method's primary purpose is to calculate the cumulative percentage for a given value. It achieves this by delegating the task to another method that handles comparable objects."
+}

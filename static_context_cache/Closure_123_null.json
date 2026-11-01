@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nUnsafe dereferences:\n  line 96   cc.add(str);  \u2192 receiver of .add() is MAY-NULL"
+}

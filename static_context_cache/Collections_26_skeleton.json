@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: MultiKey (implements Serializable)\nStatic constants:\n  private static final long serialVersionUID\nFields:\n  private final K[] keys\n  private transient int hashCode\nMethods:\n  public K[] getKeys()\n  public K getKey(int index)\n  public int size()\n  public boolean equals(Object other)\n  public int hashCode()\n  public String toString()\n  private void calculateHashCode(Object[] keys)\n  private Object readResolve()"
+}

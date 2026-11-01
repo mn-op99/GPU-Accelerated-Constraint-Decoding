@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'zipEncoding' assigned at line 178  (ZipEncodingHelper.getZipEncoding(encodin...) but never used afterward\n  \u26a0 'in' assigned at line 180  (new PushbackInputStream(inputStream, buf...) but never used afterward"
+}

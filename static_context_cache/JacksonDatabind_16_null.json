@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 111  Annotation previous = _annotations.put(ann.annotationType(), ann);  \u2192 MAY-NULL (calls java.lang.annotation.Annotation.annotationType(), return value not checked)"
+}

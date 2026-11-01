@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'dec' assigned at line 474  (str.substring(decPos + 1, expPos)) but never used afterward\n  \u26a0 'dec' assigned at line 476  (str.substring(decPos + 1)) but never used afterward\n  \u26a0 'mant' assigned at line 478  (str.substring(0, decPos)) but never used afterward\n  \u26a0 'mant' assigned at line 484  (str.substring(0, expPos)) but never used afterward\n  \u26a0 'exp' assigned at line 492  (str.substring(expPos + 1, str.length() -...) but never used afterward\n  \u26a0 'exp' assigned at line 552  (str.substring(expPos + 1, str.length())) but never used afterward"
+}

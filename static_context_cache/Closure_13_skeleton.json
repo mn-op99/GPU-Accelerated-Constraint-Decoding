@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: PeepholeOptimizationsPass (implements CompilerPass)\nFields:\n  private AbstractCompiler compiler\n  private final AbstractPeepholeOptimization[] peepholeOptimizations\n  private StateStack traversalState\nMethods:\n  public AbstractCompiler getCompiler()\n  public void process(Node externs, Node root)\n  private void traverse(Node node)\n  private boolean shouldRetraverse(Node node)\n  private boolean shouldVisit(Node node)\n  private void exitNode(Node node)\n  public void visit(Node n)\n  private void beginTraversal()\n  private void endTraversal()"
+}

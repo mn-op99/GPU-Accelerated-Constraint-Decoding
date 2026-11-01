@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method reparseCentralDirectoryData is supposed to parse and validate the central directory data of a ZIP file. It operates on the rawCentralDirectoryData array and boolean flags indicating the presence of specific fields. It calculates the expected length of the data based on the flags and initializes various fields using the data at specific offsets. The method is supposed to throw a ZipException if the data length is incorrect or update fields like size, compressedSize, relativeHeaderOffset, and diskStart.\n\nAt line 4, it calls ZipException(). ZipException()'s intention is [PLACEHOLDER_NAME]"
+}

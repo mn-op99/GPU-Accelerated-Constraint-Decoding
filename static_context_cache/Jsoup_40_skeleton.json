@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: DocumentType (extends Node)\n(no fields declared)\nMethods:\n  public String nodeName()\n  void outerHtmlHead(StringBuilder accum, int depth, Document.OutputSettings out)\n  void outerHtmlTail(StringBuilder accum, int depth, Document.OutputSettings out)"
+}

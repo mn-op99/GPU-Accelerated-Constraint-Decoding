@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 2416 return evaluatesToLocalValue(value, Predicates.<Node>alwaysFalse());  \u2192 MAY-NULL (calls com.google.common.base.Predicates.alwaysFalse(), return value not checked)"
+}

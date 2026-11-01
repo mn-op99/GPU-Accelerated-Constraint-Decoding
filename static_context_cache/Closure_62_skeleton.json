@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: LightweightMessageFormatter (extends AbstractMessageFormatter)\nStatic constants:\n  private static final ExcerptFormatter excerptFormatter\nFields:\n  private SourceExcerpt excerpt\nMethods:\n  static LightweightMessageFormatter withoutSource()\n  public String formatError(JSError error)\n  public String formatWarning(JSError warning)\n  private String format(JSError error, boolean warning)"
+}

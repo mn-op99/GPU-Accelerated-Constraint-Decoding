@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nUnsafe dereferences:\n  line 1490 tb.tokeniser.transition(TokeniserState.Rawtext);  \u2192 receiver of .transition() is MAY-NULL"
+}

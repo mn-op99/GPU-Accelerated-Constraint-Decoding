@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: Cleaner\nFields:\n  private Whitelist whitelist\nMethods:\n  public Document clean(Document dirtyDocument)\n  public boolean isValid(Document dirtyDocument)\n  private int copySafeNodes(Element source, Element dest)\n  private ElementMeta createSafeElement(Element sourceEl)"
+}

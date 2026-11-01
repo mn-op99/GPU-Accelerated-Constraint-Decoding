@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'deser' assigned at line 168  (ctxt.findContextualValueDeserializer(act...) but never used afterward"
+}

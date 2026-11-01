@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to initialize a Base64 object.  \nIt operates on the constructor parameters, specifically a boolean flag.  \nIt calls another constructor with a default boolean value of false.  \nIt is supposed to create a Base64 object with default settings.  \nAt line 2, it calls Base64(). Base64()'s intention is [PLACEHOLDER_NAME]"
+}

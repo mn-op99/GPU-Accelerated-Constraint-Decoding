@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 76   return StringKD.forType(raw);  \u2192 MAY-NULL (calls com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer$StringKD.forType(), return value not checked)\n  line 107  FromStringDeserializer<?> deser = FromStringDeserializer.findDeserializer(Locale.class);  \u2192 MAY-NULL (calls com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(), return value not checked)\n  line 110  FromStringDeserializer<?> deser = FromStringDeserializer.findDeserializer(Currency.class);  \u2192 MAY-NULL (calls com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(), return value not checked)"
+}

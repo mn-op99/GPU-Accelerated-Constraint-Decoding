@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: FindDependencyScopes (extends AbstractPostOrderCallback)\n(no fields declared)\nMethods:\n  public void visit(NodeTraversal t, Node n, Node parent)\n  private void recordConsumers(NodeTraversal t, Node n, Node recordNode)\n  private void recordAssignment(NodeTraversal t, Node n, Node recordNode)\n  private void recordDepScope(Node node, NameInformation name)"
+}

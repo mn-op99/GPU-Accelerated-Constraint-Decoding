@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to calculate the sum of squared errors for a dataset. It operates on the instance variables sumYY, sumXY, and sumXX. It performs a calculation using these variables to compute the result. It is supposed to return the computed sum of squared errors as a double value."
+}

@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this.data                 \u2192 MAY-NULL   [line 935, class org.jfree.data.time.TimeSeries]\n\nCallee return nullability:\n  line 948  TimeSeries copy = (TimeSeries) super.clone();  \u2192 MAY-NULL (calls org.jfree.data.general.Series.clone(), return value not checked)\n  line 953  return createCopy(startIndex, endIndex);  \u2192 MAY-NULL (calls org.jfree.data.time.TimeSeries.createCopy(), return value not checked)\n\nUnsafe dereferences:\n  line 948  TimeSeries copy = (TimeSeries) super.clone();  \u2192 receiver of .clone() is MAY-NULL\n  line 953  return createCopy(startIndex, endIndex);  \u2192 receiver of .createCopy() is MAY-NULL"
+}

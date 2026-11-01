@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to decode data from an input stream using a specified coder and password. It operates on an InputStream 'in', a Coder object 'coder', and a byte array 'password'. It likely involves reading from the input stream, applying decoding logic using the coder and password, and possibly transforming the data. The method is supposed to produce a decoded InputStream as its output.\n\nAt line <L>, it calls <name>(). <name>()'s intention is [PLACEHOLDER_NAME]"
+}

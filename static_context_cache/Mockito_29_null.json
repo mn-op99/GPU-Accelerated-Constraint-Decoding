@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this.wanted               \u2192 MAY-NULL   [line 29, class org.mockito.internal.matchers.Same]\n\nUnsafe dereferences:\n  line 28   appendQuoting(description);  \u2192 receiver of .appendQuoting() is MAY-NULL\n  line 30   appendQuoting(description);  \u2192 receiver of .appendQuoting() is MAY-NULL"
+}

@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: UnivariateRealSolverUtils\n(no fields declared)\nMethods:\n  public static double solve(UnivariateRealFunction f, double x0, double x1)\n  public static double solve(UnivariateRealFunction f, double x0, double x1, double absoluteAccuracy)\n  public static double[] bracket(UnivariateRealFunction function, double initial, double lowerBound, double upperBound)\n  public static double[] bracket(UnivariateRealFunction function, double initial, double lowerBound, double upperBound, int maximumIterations)\n  public static double midpoint(double a, double b)\n  private static void setup(UnivariateRealFunction f)"
+}

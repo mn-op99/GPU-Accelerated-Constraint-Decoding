@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 1121 return ListUtils.retainAll(collection, remove);  \u2192 MAY-NULL (calls org.apache.commons.collections.ListUtils.retainAll(), return value not checked)"
+}

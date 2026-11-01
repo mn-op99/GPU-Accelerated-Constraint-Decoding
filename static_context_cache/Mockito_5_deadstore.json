@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'error' assigned at line 76   (null) but never used afterward\n  \u26a0 'error' assigned at line 86   (null) but never used afterward\n  \u26a0 'error' assigned at line 89   (handleVerifyException(e)) but never used afterward"
+}

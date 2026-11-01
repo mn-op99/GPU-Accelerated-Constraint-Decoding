@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'body' assigned at line 1736 (astParameters.getNext()) but never used afterward\n  \u26a0 'jsDocParameter' assigned at line 1746 (jsDocParameter.getNext()) but never used afterward"
+}

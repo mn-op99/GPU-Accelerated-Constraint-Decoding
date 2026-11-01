@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to read a single character from an input stream and count new lines. It operates on the input stream and uses a line counter and a variable to store the last character read. It reads a character, checks if it is a newline, increments a line counter if true, and updates the last character variable. It outputs the last character read as an integer. At line 3, it calls read(). read()'s intention is [PLACEHOLDER_NAME]"
+}

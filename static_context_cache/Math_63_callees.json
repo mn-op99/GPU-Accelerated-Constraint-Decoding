@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to check if two double values are equal.  \nIt operates on two double inputs, x and y.  \nIt checks if both values are NaN or if they are exactly equal using the equality operator.  \nIt is supposed to return a boolean indicating whether the two doubles are considered equal.  \nAt line 2, it calls Double.isNaN(). Double.isNaN()'s intention is [PLACEHOLDER_NAME]  \nAt line 2, it calls Double.isNaN(). Double.isNaN()'s intention is [PLACEHOLDER_NAME]"
+}

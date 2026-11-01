@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to register type variables for a parameterized type.  \nIt operates on a field or variable named parameterizedType.  \nIt calls another method to handle the registration of type variables.  \nThe intended side effect is to have type variables registered for the given parameterized type.  \nAt line 2, it calls registerTypeVariablesOn(). registerTypeVariablesOn()'s intention is The method's primary purpose is to map type variables to their actual type arguments for a given parameterized type. It achieves this by iterating through the type parameters and actual arguments, storing them in a map, and handling wildcard types specifically."
+}

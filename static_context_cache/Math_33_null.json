@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 362  columnLabels.remove((int) columnsToDrop.get(i));  \u2192 MAY-NULL (calls java.util.List.get(), return value not checked)"
+}

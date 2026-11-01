@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 597  return multiply(100).doubleValue();  \u2192 MAY-NULL (calls org.apache.commons.math3.fraction.Fraction.multiply(), return value not checked)"
+}

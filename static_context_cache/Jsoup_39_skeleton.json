@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: DataUtil\nStatic constants:\n  private static final Pattern charsetPattern\n  static final String defaultCharset\n  private static final int bufferSize\nMethods:\n  public static Document load(File in, String charsetName, String baseUri)\n  public static Document load(InputStream in, String charsetName, String baseUri)\n  public static Document load(InputStream in, String charsetName, String baseUri, Parser parser)\n  static Document parseByteData(ByteBuffer byteData, String charsetName, String baseUri, Parser parser)\n  static ByteBuffer readToByteBuffer(InputStream inStream, int maxSize)\n  static ByteBuffer readToByteBuffer(InputStream inStream)\n  static String getCharsetFromContentType(String contentType)"
+}

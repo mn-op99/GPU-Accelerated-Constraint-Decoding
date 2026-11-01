@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 175  this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());  \u2192 MAY-NULL (calls java.util.Locale.getDefault(), return value not checked)"
+}

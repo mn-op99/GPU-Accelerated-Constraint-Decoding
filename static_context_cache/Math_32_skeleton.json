@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: PolygonsSet (extends AbstractRegion)\nFields:\n  private Vector2D[][] vertices\nMethods:\n  private static Line[] boxBoundary(double xMin, double xMax, double yMin, double yMax)\n  public PolygonsSet buildNew(BSPTree<Euclidean2D> tree)\n  protected void computeGeometricalProperties()\n  public Vector2D[][] getVertices()\n  private List<ComparableSegment> followLoop(AVLTree<ComparableSegment>.Node node, AVLTree<ComparableSegment> sorted)"
+}

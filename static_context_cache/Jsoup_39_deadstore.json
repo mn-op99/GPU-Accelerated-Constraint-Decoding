@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'doc' assigned at line 78   (null) but never used afterward\n  \u26a0 'docData' assigned at line 105  (Charset.forName(foundCharset).decode(byt...) but never used afterward\n  \u26a0 'docData' assigned at line 116  (Charset.forName(defaultCharset).decode(b...) but never used afterward\n  \u26a0 'foundCharset' assigned at line 91   (meta.attr(\"charset\")) but never used afterward\n  \u26a0 'foundCharset' assigned at line 94   (null) but never used afterward"
+}

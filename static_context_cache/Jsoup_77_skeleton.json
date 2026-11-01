@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: XmlTreeBuilder (extends TreeBuilder)\n(no fields declared)\nMethods:\n  ParseSettings defaultSettings()\n  Document parse(Reader input, String baseUri)\n  Document parse(String input, String baseUri)\n  protected void initialiseParse(Reader input, String baseUri, ParseErrorList errors, ParseSettings settings)\n  protected boolean process(Token token)\n  private void insertNode(Node node)\n  Element insert(Token.StartTag startTag)\n  void insert(Token.Comment commentToken)\n  void insert(Token.Character token)\n  void insert(Token.Doctype d)\n  private void popStackToClose(Token.EndTag endTag)\n  List<Node> parseFragment(String inputFragment, String baseUri, ParseErrorList errors, ParseSettings settings)"
+}

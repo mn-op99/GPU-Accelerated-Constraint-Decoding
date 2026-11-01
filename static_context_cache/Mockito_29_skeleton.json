@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: Same (extends ArgumentMatcher, implements Serializable)\nStatic constants:\n  private static final long serialVersionUID\nFields:\n  private final Object wanted\nMethods:\n  public boolean matches(Object actual)\n  public void describeTo(Description description)\n  private void appendQuoting(Description description)"
+}

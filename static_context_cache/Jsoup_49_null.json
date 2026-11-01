@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this.childNodes           \u2192 MAY-NULL   [line 433, class org.jsoup.nodes.Node]\n  this.childNodes           \u2192 MAY-NULL   [line 434, class org.jsoup.nodes.Node]\n\nUnsafe dereferences:\n  line 431  reparentChild(child);  \u2192 receiver of .reparentChild() is MAY-NULL\n  line 432  ensureChildNodes();  \u2192 receiver of .ensureChildNodes() is MAY-NULL\n  line 434  child.setSiblingIndex(childNodes.size()-1);  \u2192 receiver of .setSiblingIndex() is MAY-NULL"
+}

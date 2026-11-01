@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to initialize a ValueMarker object with a specified value. It operates on a double input parameter named value. It calls the superclass constructor and assigns the input value to an instance variable. The method is supposed to create a ValueMarker object with the given value set."
+}

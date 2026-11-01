@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'anySetterField' assigned at line 505  (null) but never used afterward\n  \u26a0 'propDefs' assigned at line 531  (filterBeanProps(ctxt, beanDesc, builder,...) but never used afterward\n  \u26a0 'prop' assigned at line 543  (null) but never used afterward\n  \u26a0 'prop' assigned at line 550  (constructSettableProperty(ctxt, beanDesc...) but never used afterward\n  \u26a0 'prop' assigned at line 553  (constructSettableProperty(ctxt, beanDesc...) but never used afterward\n  \u26a0 'cprop' assigned at line 575  (null) but never used afterward"
+}

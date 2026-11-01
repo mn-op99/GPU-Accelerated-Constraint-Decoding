@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nUnsafe dereferences:\n  line 124  Node c = node.getFirstChild();  \u2192 receiver of .getFirstChild() is MAY-NULL\n  line 128  c = next;  \u2192 receiver of .getNext() is MAY-NULL"
+}

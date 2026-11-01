@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: FormElement (extends Element)\nFields:\n  private final Elements elements\nMethods:\n  public Elements elements()\n  public FormElement addElement(Element element)\n  protected void removeChild(Node out)\n  public Connection submit()\n  public List<Connection.KeyVal> formData()"
+}

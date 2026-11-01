@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this.tagPending           \u2192 MAY-NULL   [line 873, class org.jsoup.parser.Tokeniser]\n\nUnsafe dereferences:\n  line 874  t.emitTagPending();  \u2192 receiver of .emitTagPending() is MAY-NULL\n  line 875  t.transition(Data);  \u2192 receiver of .transition() is MAY-NULL\n  line 878  t.eofError(this);  \u2192 receiver of .eofError() is MAY-NULL\n  line 879  t.transition(Data);  \u2192 receiver of .transition() is MAY-NULL\n  line 882  t.error(this);  \u2192 receiver of .error() is MAY-NULL\n  line 883  t.transition(BeforeAttributeName);  \u2192 receiver of .transition() is MAY-NULL"
+}

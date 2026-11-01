@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nUnsafe dereferences:\n  line 92   t.traverseRoots(externs, root);  \u2192 receiver of .traverseRoots() is MAY-NULL\n  line 96   .process(externs, root);  \u2192 receiver of .process() is MAY-NULL"
+}

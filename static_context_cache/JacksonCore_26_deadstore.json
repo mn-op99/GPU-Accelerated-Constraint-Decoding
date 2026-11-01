@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 '_currInputRowStart' assigned at line 105  (start - (_inputEnd - _currInputRowStart)) but never used afterward\n  \u26a0 '_inputBuffer' assigned at line 108  (buf) but never used afterward\n  \u26a0 '_inputPtr' assigned at line 109  (start) but never used afterward\n  \u26a0 '_inputEnd' assigned at line 110  (end) but never used afterward\n  \u26a0 '_origBufferLen' assigned at line 111  (end - start) but never used afterward"
+}

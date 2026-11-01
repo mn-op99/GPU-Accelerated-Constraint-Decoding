@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this.size                 \u2192 MAY-NULL   [line 1762, class org.apache.commons.lang.text.StrBuilder]\n  this.size                 \u2192 MAY-NULL   [line 1772, class org.apache.commons.lang.text.StrBuilder]\n  this.buffer               \u2192 MAY-NULL   [line 1775, class org.apache.commons.lang.text.StrBuilder]"
+}

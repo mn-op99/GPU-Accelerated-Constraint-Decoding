@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 74   private final ByteBuffer buf = ByteBuffer.allocate(ZipArchiveOutputStream.BUFFER_SIZE);  \u2192 MAY-NULL (calls java.nio.ByteBuffer.allocate(), return value not checked)\n  line 178  zipEncoding = ZipEncodingHelper.getZipEncoding(encoding);  \u2192 MAY-NULL (calls org.apache.commons.compress.archivers.zip.ZipEncodingHelper.getZipEncoding(), return value not checked)"
+}

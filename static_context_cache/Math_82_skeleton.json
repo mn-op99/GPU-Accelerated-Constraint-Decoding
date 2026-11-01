@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: SimplexSolver (extends AbstractLinearOptimizer)\nStatic constants:\n  private static final double DEFAULT_EPSILON\nFields:\n  protected final double epsilon\nMethods:\n  private Integer getPivotColumn(SimplexTableau tableau)\n  private Integer getPivotRow(int col, SimplexTableau tableau)\n  protected void doIteration(SimplexTableau tableau)\n  private boolean isPhase1Solved(SimplexTableau tableau)\n  public boolean isOptimal(SimplexTableau tableau)\n  protected void solvePhase1(SimplexTableau tableau)\n  public RealPointValuePair doOptimize()"
+}

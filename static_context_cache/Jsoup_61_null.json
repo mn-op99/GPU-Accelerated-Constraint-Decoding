@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 1092 final String classAttr = attributes.get(\"class\");  \u2192 MAY-NULL (calls org.jsoup.nodes.Attributes.get(), return value not checked)\n\nUnsafe dereferences:\n  line 1092 final String classAttr = attributes.get(\"class\");  \u2192 receiver of .get() is MAY-NULL"
+}

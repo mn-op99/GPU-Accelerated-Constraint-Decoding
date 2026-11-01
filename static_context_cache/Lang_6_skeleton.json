@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: CharSequenceTranslator\n(no fields declared)\nMethods:\n  public abstract int translate(CharSequence input, int index, Writer out)\n  public final String translate(CharSequence input)\n  public final void translate(CharSequence input, Writer out)\n  public final CharSequenceTranslator with(CharSequenceTranslator translators)\n  public static String hex(int codepoint)"
+}

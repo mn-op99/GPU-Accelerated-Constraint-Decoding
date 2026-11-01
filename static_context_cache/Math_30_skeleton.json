@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: MannWhitneyUTest\nFields:\n  private NaturalRanking naturalRanking\nMethods:\n  private void ensureDataConformance(double[] x, double[] y)\n  private double[] concatenateSamples(double[] x, double[] y)\n  public double mannWhitneyU(double[] x, double[] y)\n  private double calculateAsymptoticPValue(double Umin, int n1, int n2)\n  public double mannWhitneyUTest(double[] x, double[] y)"
+}

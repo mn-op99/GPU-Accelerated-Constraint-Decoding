@@ -1,0 +1,3 @@
+{
+  "deadstore": "=== DEAD-STORE / UNUSED-VARIABLE HINTS ===\n(source-level scan \u2014 variable written here is never read again in this method)\n  \u26a0 'v' assigned at line 124  (Math.max(value, this.lowerBound)) but never used afterward\n  \u26a0 'v' assigned at line 125  (Math.min(v, this.upperBound)) but never used afterward"
+}

@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 49   return createValue(str, (Class<?>) obj);  \u2192 MAY-NULL (calls org.apache.commons.cli.TypeHandler.createValue(), return value not checked)"
+}

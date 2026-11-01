@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nCallee return nullability:\n  line 814  for (Iterator it = props.getKeys(); it.hasNext();) {  \u2192 MAY-NULL (calls org.apache.commons.collections.ExtendedProperties.getKeys(), return value not checked)\n  line 816  setProperty(key, props.get(key));  \u2192 MAY-NULL (calls java.util.Hashtable.get(), return value not checked)\n\nUnsafe dereferences:\n  line 816  setProperty(key, props.get(key));  \u2192 receiver of .setProperty() is MAY-NULL"
+}

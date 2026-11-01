@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to create a value based on a string and an object.  \nIt operates on a string `str` and an object `obj`.  \nIt attempts to call another `createValue` method, casting `obj` to a `Class<?>`.  \nThe method is supposed to return an object created from the string and class type.  \nAt line 2, it calls createValue(). createValue()'s intention is The method's primary purpose is to create a value based on a string and an object. It achieves this by calling another overloaded method with the string and the object cast to a Class type."
+}

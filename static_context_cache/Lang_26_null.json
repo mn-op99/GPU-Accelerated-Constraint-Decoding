@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this.mTimeZone            \u2192 MAY-NULL   [line 820, class org.apache.commons.lang3.time.FastDateFormat]\n  this.mMaxLengthEstimate   \u2192 MAY-NULL   [line 822, class org.apache.commons.lang3.time.FastDateFormat]\n\nCallee return nullability:\n  line 822  return applyRules(c, new StringBuffer(mMaxLengthEstimate)).toString();  \u2192 MAY-NULL (calls org.apache.commons.lang3.time.FastDateFormat.applyRules(), return value not checked)\n\nUnsafe dereferences:\n  line 822  return applyRules(c, new StringBuffer(mMaxLengthEstimate)).toString();  \u2192 receiver of .applyRules() is MAY-NULL"
+}

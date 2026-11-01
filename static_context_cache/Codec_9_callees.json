@@ -1,0 +1,3 @@
+{
+  "callees": "=== CALLEE SUMMARY ===\nThe method is supposed to encode binary data into Base64 format.  \nIt operates on a byte array input called binaryData.  \nIt calls another method to perform the encoding with a default parameter set to false.  \nThe output is a byte array representing the Base64 encoded data.  \nAt line 2, it calls encodeBase64(). encodeBase64()'s intention is The method's primary purpose is to encode a byte array into a specific encoded format, handling end-of-file and line length constraints. It processes input bytes in chunks, converting them using an encoding table, and manages buffer resizing and line separators as needed."
+}

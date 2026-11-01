@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: BisectionSolver (extends UnivariateRealSolverImpl)\n(no fields declared)\nMethods:\n  public double solve(double min, double max, double initial)\n  public double solve(double min, double max)\n  public double solve(UnivariateRealFunction f, double min, double max, double initial)\n  public double solve(UnivariateRealFunction f, double min, double max)"
+}

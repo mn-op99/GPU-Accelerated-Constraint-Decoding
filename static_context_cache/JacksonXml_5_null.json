@@ -1,0 +1,3 @@
+{
+  "null": "=== NULLABILITY ANALYSIS ===\n\nField nullability:\n  this._rootNameLookup      \u2192 MAY-NULL   [line 59, class com.fasterxml.jackson.dataformat.xml.ser.XmlSerializerProvider]"
+}

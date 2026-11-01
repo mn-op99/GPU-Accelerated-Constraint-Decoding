@@ -1,0 +1,3 @@
+{
+  "skeleton": "=== CLASS SKELETON ===\nClass: CoreOperationRelationalExpression (extends CoreOperation)\n(no fields declared)\nMethods:\n  public final Object computeValue(EvalContext context)\n  protected final int getPrecedence()\n  protected final boolean isSymmetric()\n  protected abstract boolean evaluateCompare(int compare)\n  private boolean compute(Object left, Object right)\n  private Object reduce(Object o)\n  private boolean containsMatch(Iterator it, Object value)\n  private boolean findMatch(Iterator lit, Iterator rit)"
+}
